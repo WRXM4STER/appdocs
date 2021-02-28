@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+html{
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+	height:100%;
+}
+body{
+	height:100%;
+}
+#wrapper{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	align-items:center;
+	height:100%;
+	width:100%;
+}
+.linkLoginCustomStyle{
+	text-decoration:none;
+	color:#3399CC;
+	margin:25px;
+}
+.linkLoginCustomStyle:hover{
+	color: #003333;
+	border-bottom:#003333 1px solid;
+}
